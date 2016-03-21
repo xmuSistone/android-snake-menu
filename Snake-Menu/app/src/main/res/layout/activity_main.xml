@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.stone.tumblr.TumblrFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tumblr_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/color0" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/toolbar"
+        android:scrollbars="none" />
+
+</com.stone.tumblr.TumblrFrameLayout>
