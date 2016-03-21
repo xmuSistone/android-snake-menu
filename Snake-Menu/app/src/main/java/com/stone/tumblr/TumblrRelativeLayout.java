@@ -21,7 +21,7 @@ import java.util.List;
  * 该类跟普通RelativeLayout的用法是一样一样的
  * Created by xmuSistone.
  */
-public class TumblrFrameLayout extends RelativeLayout {
+public class TumblrRelativeLayout extends RelativeLayout {
 
     private ImageView topImageView;
     private List<AnimateImageView> imageViewList = new ArrayList<AnimateImageView>();
@@ -35,15 +35,15 @@ public class TumblrFrameLayout extends RelativeLayout {
     private GestureDetectorCompat gestureDetector;
     private ViewTrackController viewTrackController;
 
-    public TumblrFrameLayout(Context context) {
+    public TumblrRelativeLayout(Context context) {
         this(context, null);
     }
 
-    public TumblrFrameLayout(Context context, AttributeSet attrs) {
+    public TumblrRelativeLayout(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public TumblrFrameLayout(Context context, AttributeSet attrs, int defStyleAttr) {
+    public TumblrRelativeLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         marginBottom = (int) getResources().getDimension(R.dimen.float_marginBottom);
         marginRight = (int) getResources().getDimension(R.dimen.float_marginRight);

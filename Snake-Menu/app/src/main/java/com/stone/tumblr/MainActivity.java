@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "menu click", Toast.LENGTH_LONG).show();
             }
         };
-        TumblrFrameLayout rootLayout = (TumblrFrameLayout) findViewById(R.id.tumblr_frame_layout);
+        TumblrRelativeLayout rootLayout = (TumblrRelativeLayout) findViewById(R.id.tumblr_frame_layout);
         rootLayout.setMenuListener(menuClickListener);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
