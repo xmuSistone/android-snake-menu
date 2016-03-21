@@ -2,7 +2,7 @@
 imitate Tumblr's menu, dragging animations look like a snake
 
 ####something irrelated
-Several days ago, I installed the tumblr app into my genymotion device, and I was totally shocked by its amazing snake-menu animation which is quite smooth and fluent. Since I cannot clearly describe its visual effects, you’d better install this app and try it yourself.<br>
+Several days ago, I installed the tumblr app into my genymotion device, and I was totally shocked by its amazing snake-menu animation which is quite smooth and fluent. Since I cannot clearly describe its visual effects, you’d better install this app and try it yourself.<br><br>
 Ok, I am always the one who would like to imitate beautiful things. And I was terribly curious about how its animation is implemented. 
 ####captured images
 <td>
@@ -11,7 +11,7 @@ Ok, I am always the one who would like to imitate beautiful things. And I was te
 	 <img src="capture3.gif" width="290" height="485" />
 </td>
 ####implement principle
-So, at the first sight, do you have any idea about how this animation appears?<br>
+So, at the first sight, do you have any idea about how this animation appears?<br><br>
 As you know, there are 6 imageviews: P1, P2, P3, P4, P5, P6, and P6 is the top-most imageview which is enabled to be dragged. You can easily figure it out that: P1 follows P2, P2 follows P3, P3 follows P4, P4 follows P5, P5 follows P6.<br><br>
 First of all, I used ViewDragHelper to make P6 draggable.<br><br>
 Then, ViewDragHelper.CallBack can tell us some information about P6’s status, such as dragging, released, and P6’s position change and so on. To lighten the parent ViewGroup’s job, I create a ViewTrackController to process P6’s status.<br><br>
