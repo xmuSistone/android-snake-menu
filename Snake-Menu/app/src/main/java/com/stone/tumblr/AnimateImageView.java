@@ -77,6 +77,14 @@ public class AnimateImageView extends FloatingActionButton {
     }
 
     /**
+     * 顶部ImageView强行停止动画
+     */
+    public void stopAnimation() {
+        springX.setAtRest();
+        springY.setAtRest();
+    }
+
+    /**
      * 只为最顶部的view调用，触点松开后，回归原点
      */
     public void onRelease(int xPos, int yPos) {

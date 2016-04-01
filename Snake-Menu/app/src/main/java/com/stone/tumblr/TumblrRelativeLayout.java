@@ -23,7 +23,7 @@ import java.util.List;
  */
 public class TumblrRelativeLayout extends RelativeLayout {
 
-    private ImageView topImageView;
+    private AnimateImageView topImageView;
     private List<AnimateImageView> imageViewList = new ArrayList<AnimateImageView>();
     private int[] imageIds = {R.drawable.image1, R.drawable.image2, R.drawable.image3, R.drawable.image4, R.drawable.image5, R.drawable.image6};
     private int[] buttonColors = {R.color.float_background1, R.color.float_background2, R.color.float_background3, R.color.float_background4, R.color.float_background5, R.color.float_background6};
@@ -118,6 +118,7 @@ public class TumblrRelativeLayout extends RelativeLayout {
         public boolean tryCaptureView(View child, int pointerId) {
             // 只跟踪最顶层的view
             if (child == topImageView) {
+                topImageView.stopAnimation();
                 return true;
             }
 
