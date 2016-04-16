@@ -1,6 +1,9 @@
 # android-snake-menu
 imitate Tumblr's menu, dragging animations look like a snake
 
+####unexpected episode
+I found another repository some time ago which implemments the same dragging effects. Besides, its unfold later-menu effects is much more consistent with original Tumblr effects. You can jump to this repository -  [here](https://github.com/tiancaiCC/SpringFloatingActionMenu).
+
 ####something irrelated
 Several days ago, I installed the tumblr app into my genymotion device, and I was totally shocked by its amazing snake-menu animation which is quite smooth and fluent. Since I cannot clearly describe its visual effects, you’d better install this app and try it yourself.<br><br>
 Ok, I am always the one who would like to imitate beautiful things. And I was terribly curious about how its animation is implemented. 
