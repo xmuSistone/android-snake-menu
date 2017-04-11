@@ -7,12 +7,9 @@ I found another repository some time ago which implemments the same dragging eff
 #### something irrelated
 Several days ago, I installed the tumblr app into my genymotion device, and I was totally shocked by its amazing snake-menu animation which is quite smooth and fluent. Since I cannot clearly describe its visual effects, you’d better install this app and try it yourself.<br><br>
 Ok, I am always the one who would like to imitate beautiful things. And I was terribly curious about how its animation is implemented. 
+
 #### captured images
-<td>
-	 <img src="capture1.gif" width="290" height="485" />
-	 <img src="capture2.gif" width="290" height="485" />
-	 <img src="capture3.gif" width="290" height="485" />
-</td>
+![PREVIEW](capture1.gif)
 
 #### implement principle
 So, at the first sight, do you have any idea about how this animation appears?<br><br>
